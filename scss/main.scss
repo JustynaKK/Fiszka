@@ -1,0 +1,110 @@
+$jasnyniebieski: #80abb9;
+$beżowyjasny: #eee4d3;
+
+body {
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+  padding-top: 70px;
+
+}
+
+nav {
+  //height: 70px;
+  top: 70px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h2 {
+  padding-top: 100px;
+  margin-top: -70px;
+  font-size: 40px;
+  margin-bottom: 30px;
+  &:after {
+    margin: 0 auto;
+    content: '';
+    display: block;
+    width: 300px;
+    height: 5px;
+    background-color: #117a8b;
+  }
+}
+
+section {
+  padding-bottom: 30px;
+}
+
+.nav-item {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.about_me {
+  background-color: $jasnyniebieski;
+  .about_description {
+    background-color: beige;
+    height: 70%;
+    padding-top: 20px;
+    margin-top: 10%;
+  }
+}
+
+.price {
+  background-color: $beżowyjasny;
+}
+
+.timetable {
+  background-color: $jasnyniebieski;
+}
+
+.offer {
+  background-color: #1f2226;
+  color: white;
+
+  .single_offer {
+     padding: 20px;
+   }
+  h4 {
+     size: 30px;
+   }
+  .offer_image{
+    width: 150px;
+    margin: 10px;
+  }
+
+  .btn-info {
+    margin: 20px 0;
+  }
+}
+
+.offer_description-visibility {
+  display: none;
+}
+
+.contact {
+  background-color: $beżowyjasny;
+.form-control {
+  margin: 10px 0;
+}
+}
+
+.map {
+  min-height: 70vh;
+  background-color: $beżowyjasny;
+  border: 1px solid #222;
+  width: 100%;
+}
+
+.btn-info{
+  width: 200px;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #1f2226;
+  padding: 10px;
+  color: #b6b69e;
+
+}
